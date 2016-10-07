@@ -1,0 +1,154 @@
+/* TEXTE NORMAL*/
+/* Identifier le background normal */
+/* Identifier la dimension de container 
+min-width, max-width, margin, padding */
+/* Identifier les couleurs du texte normal et liens */
+/* Identifier la font du texte normal */
+/* Identifier la font-size du texte normal, liens, nav bar, 
+bouttons */
+/*  Identifier la font-weight des textes normal */
+/* Identifier l'interlignage du texte normal */
+/* Identifier le style des liens */
+
+/* ASIDE & BLOCKQUOTE*/
+/* Identifier le background des aside et blockquote */
+/* Identifier les couleurs des contenus transversales aside
+ et blockquote et liens asides*/
+ /* Identifier la font des asides */
+/* Identifier la font-size et interlignage des contenus transversales*/
+/* Identifier le style (italic ou new font ou border) de blockquote */
+/* Identifier le style (border) des blocs */
+
+/* YIN */
+/* Identifier les backgrounds Yin, aside yin et blockquote yin */
+/* Identifier les couleurs des textes Yin, des liens yins, aside
+yin, liens aside yins, blockquote yin */
+
+/* TITRAGE */
+/* Identifier la font-size, interlignage et styles (weight, caps, 
+uppercase, border) des Titrages */
+
+/* CTA */
+/* Identifier le bg image hero */
+/* Identifier les couleurs du texte et des liens cta */
+/* Identifier la font cta */
+/* Identifier la font-size liens cta, texte cta*/
+/* Identifier l'interlignage cta */
+/* Identifier les styles (border, radius) des liens cta */
+
+/* Identifier l'espace des contenus */
+/* Identifier l'alignement des textes dans les blocs */
+/* Identifier les affichages de positionnement */
+/* Identifier le texte indent des textes normes */
+/* Identifier les modifications de break-points */
+
+/*
+background
+color
+font-family
+font-size
+line-height
+text-decoration
+font-weight
+font-style
+font-variant
+text-transform
+border
+border-radius
+
+padding & margin
+text-align
+display
+vertical-align
+text-indent
+rwd
+*/
+
+/* Styles des boutons  */
+
+<!-- 
+html
+bg-color : #fff
+color : #000
+font-size : 16px
+letter-spacing: normal
+line-height : 20px	// 18.4px	
+font-weight: 400
+display: block
+list-style-type: disc
+list-style-position: outside
+text-decoration :none
+
+body
+margin 8px 0	// 0 
+
+h1
+font-size : 32px
+line-height: 38px // 36,8px
+margin 21,4px 0
+font-weight 700
+
+h2
+font-size : 24px
+line-height: 30px	// 27,6px
+margin: 19.9px 0
+font-weight 700
+
+h3
+font-size: 18,7px
+line-height: 23px	// 21,5px
+margin 18,7px 0
+font-weight 700
+
+p
+margin 16px 0	// 
+
+a
+color: #00e
+text-decoration: underline
+
+img
+
+blockquote, figure
+margin 16px 40px
+
+ul
+margin 16px 0
+padding: 0 0 0 40
+
+h1
+font-size : 32px
+line-height: 38px
+margin 21,4px 0
+font-weight 700
+
+small
+font-size: 13px		// 12,8px
+line-height: 16px	// 14,7px
+
+li
+display: list-item
+
+h4
+margin 21,3px 0
+font-weight 700
+
+button
+font-size: 13,3px
+line-height: 17px
+padding 0 6px // 0
+
+h5
+font-size: 13,3px
+line-height: 16,6px	// 15,3px
+margin 26,7px 0
+font-weight 700
+
+h6
+font-size: 10,7px
+line-height: 13,4px	// 12,3px
+margin 37,3px 0
+font-weight 700
+
+
+-->
