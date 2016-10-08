@@ -19,9 +19,9 @@ html {les couleurs, l'interlignage
 /*section {
 	background: #fff;
 }*/
-}
+
 .yinBg {
-	background: #333;
+	background: rgba(51,51,51,0.9);
 	color: #fff;
 }
 span.green {
@@ -54,14 +54,14 @@ a:visited {
 
 /* Contenu transversale */
 blockquote {
-	/*background: #fdfef0;*/
+	background: #fdfef0;
 	color: #aaa3a0;
 	font-weight: 400;
 	/*font-family: "Calibri";*/
 	font-style: italic;
 }
 .yinBg blockquote {
-	/*background: #3d3e30;*/
+	background: #3d3e30;
 	color: #bbbcbf;
 }
 aside {
@@ -116,16 +116,17 @@ h2 {
 }
 h1 {
 	font-size: 33px;
-	text-align: center;
+	/*text-align: center;*/
 	/*text-transform: uppercase;*/
 	/*line-height: 39.2px;*/
 	/*font-weight: normal;*/
 }
 .cta h1 {
-	font-size: 28px;
-	line-height: 2.125;
-	font-variant: small-caps;
-	text-transform: none;
+	font-size: 32px;
+	font-family: calibri;
+	/*font-variant: small-caps;*/
+	font-weight: 400;
+	text-transform: uppercase;
 }
 
 
@@ -136,17 +137,31 @@ h1 {
 }
 .cta {
 	color: #fff;
+	font-family: calibri;
 	/*text-align: center;*/
 	/*padding: 2.5% 0;*/
 }
-.cta a:link.btn {
-	/*font-size: 24px;*/
-	/*color: #cff;*/
-	/*border: 2px solid #cff;*/
-	/*border-radius: 5px;*/
+.cta p {
+	font-size: 20.7px;
 }
+.cta a:link {
+	color: #99f;
+}
+.cta a:visited {
+	color: #99c;
+}
+.cta span.green {
+	color: #6f6;
+}
+.cta span.red {
+	color: #f66;
+}
+.cta a:link.btn,
 .cta a:visited.btn {
-	color: #cff;
+	font-size: 26px;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 5px;
 }
 
 
