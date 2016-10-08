@@ -1,12 +1,15 @@
 /* TEXTE NORMAL*/
 /* Identifier le background normal */
-/* Identifier les couleurs du texte normal et liens */
+/* Identifier les couleurs du texte normal, liens green/red, liens*/
 /* Identifier la font du texte normal */
 /* Identifier la font-size du texte normal, liens, nav bar, 
 bouttons */
 /*  Identifier la font-weight des textes normal */
 /* Identifier l'interlignage du texte normal */
 /* Identifier le style des liens */
+
+/* Soupire Layout */
+/* Identifier le padding horizontal des contenants des sections */
 
 /* ASIDE & BLOCKQUOTE*/
 /* Identifier le background des aside et blockquote */
@@ -35,11 +38,77 @@ uppercase, border) des Titrages */
 /* Identifier l'interlignage cta */
 /* Identifier les styles (border, radius) des liens cta */
 
-/* Identifier l'espace des contenus */
+/* Nav */
+/* Identifier background nav et btns */
+/* Identifier color, liens nav et buttons */
+/* Identifier styles (border, pseudo) liens nav et btns */
+
+/* Identifier, dimensionner et mettre en page aside.inside et partenaire */
+/* Dimensionner et mettre en page la nav */
+/* Identifier les sections seuls */
+/* Layout */
+/* Identifier le margin vertical des éléments en RWD*/
+/* Identifier les affichages de positionnement en RWD*/
+/* Identifier les dimensions horizontales des éléments */
+/* Identifier les margin horizontal des éléments en RWD*/
+/* Identifier les paddings horizontal des éléments en RWD*/
+/* Identifier les paddings vertical des éléments en RWD */
 /* Identifier l'alignement des textes dans les blocs */
-/* Identifier les affichages de positionnement */
 /* Identifier le texte indent des textes normes */
-/* Identifier les modifications de break-points */
+
+/* 
+body
+margin 8px 0
+
+h1 bold
+font-size : 32px
+line-height: 38px
+margin 21,4px 0
+
+
+h2 bold
+font-size : 24px
+line-height: 30px
+margin: 19.9px 0
+
+h3 bold
+font-size: 18,7px
+line-height: 23px
+margin 18,7px 0
+
+p
+margin 16px 0
+
+blockquote, figure
+margin 16px 40px
+
+ul
+margin 16px 0
+padding: 0 0 0 40
+
+small
+font-size: 13px
+line-height: 16px
+
+h4 bold
+margin 21,3px 0
+
+button
+font-size: 13,3px
+line-height: 17px
+padding 0 6px
+
+h5 bold
+font-size: 13,3px
+line-height: 16,6px
+margin 26,7px 0
+
+h6 bold
+font-size: 10,7px
+line-height: 13,4px
+margin 37,3px 0
+*/
+
 
 /*
 background
@@ -54,100 +123,7 @@ font-variant
 text-transform
 border
 border-radius
-
-padding & margin
-text-align
-display
-vertical-align
-text-indent
-rwd
 */
 
-/* Styles des boutons  */
-
-<!-- 
-html
-bg-color : #fff
-color : #000
-font-size : 16px
-letter-spacing: normal
-line-height : 20px	// 18.4px	
-font-weight: 400
-display: block
-list-style-type: disc
-list-style-position: outside
-text-decoration :none
-
-body
-margin 8px 0	// 0 
-
-h1
-font-size : 32px
-line-height: 38px // 36,8px
-margin 21,4px 0
-font-weight 700
-
-h2
-font-size : 24px
-line-height: 30px	// 27,6px
-margin: 19.9px 0
-font-weight 700
-
-h3
-font-size: 18,7px
-line-height: 23px	// 21,5px
-margin 18,7px 0
-font-weight 700
-
-p
-margin 16px 0	// 
-
-a
-color: #00e
-text-decoration: underline
-
-img
-
-blockquote, figure
-margin 16px 40px
-
-ul
-margin 16px 0
-padding: 0 0 0 40
-
-h1
-font-size : 32px
-line-height: 38px
-margin 21,4px 0
-font-weight 700
-
-small
-font-size: 13px		// 12,8px
-line-height: 16px	// 14,7px
-
-li
-display: list-item
-
-h4
-margin 21,3px 0
-font-weight 700
-
-button
-font-size: 13,3px
-line-height: 17px
-padding 0 6px // 0
-
-h5
-font-size: 13,3px
-line-height: 16,6px	// 15,3px
-margin 26,7px 0
-font-weight 700
-
-h6
-font-size: 10,7px
-line-height: 13,4px	// 12,3px
-margin 37,3px 0
-font-weight 700
 
 
--->

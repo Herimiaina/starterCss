@@ -1,10 +1,8 @@
 * {box-sizing: border-box;}
 
-/* IE 9- */
+/* IE 9- & Counter browser */
 article,aside,footer,header,nav,section,figcaption,figure,main {
   display: block;}
-
-/* Counter Browser */
 body {margin: 0;}
 
 /* Texte */
@@ -16,7 +14,11 @@ html {les couleurs, l'interlignage
 	font-weight: 300;
 	font-size: 17px;
 	line-height: 1.25;
-	padding: 0;
+}
+/* Background */
+/*section {
+	background: #fff;
+}*/
 }
 .yinBg {
 	background: #333;
@@ -48,13 +50,7 @@ a:visited {
 .yinBg span.red {
 	color: #f66;
 }
-nav a:link,
-nav a:visited,
-.btn {
-	font-size: 19.7px; 
-	color: #666;
-	font-family: sans-serif;
-}
+
 
 /* Contenu transversale */
 blockquote {
@@ -104,6 +100,7 @@ aside span.red {
 	color: #faa;
 }
 
+
 /* Titrage */
 h3 {
 	font-size: 19.7px; 
@@ -117,7 +114,6 @@ h2 {
 	font-size: 25px;
 	/*line-height: 31.25px;*/
 }
-
 h1 {
 	font-size: 33px;
 	text-align: center;
@@ -134,65 +130,63 @@ h1 {
 
 
 /* Contenu d'Appel */
+#hero {
+	background: url("girl.jpg") 0 0 no-repeat;
+	background-size: 100% auto;
+}
 .cta {
-	/*font-family: Arial;*/
-	/*line-height: 1.5;*/
 	color: #fff;
-	text-align: center;
-	padding: 2.5% 0;
+	/*text-align: center;*/
+	/*padding: 2.5% 0;*/
 }
 .cta a:link.btn {
-	font-size: 24px;
-	color: #cff;
-	border: 2px solid #cff;
-	border-radius: 5px;
+	/*font-size: 24px;*/
+	/*color: #cff;*/
+	/*border: 2px solid #cff;*/
+	/*border-radius: 5px;*/
 }
 .cta a:visited.btn {
 	color: #cff;
 }
 
+
+/* Navigation */
 nav {
-	text-align: center;
 	background: #f8f8f8;
+	text-align: center;
 }
-nav ul {
-	padding: 0;
-	margin: 0;
+nav a:link,
+nav a:visited,
+.btn {
+	/*font-size: 19.7px; */
+	/*color: #666;*/
+	/*font-family: sans-serif;*/
 }
-nav li {
-	display: inline-block;
-	padding: 1%;
-	margin: 0 2.5%;
+.yinBg .btn {
+	/**/
 }
-
-
-
-
-/* LAYOUT */
-/* Identifier la disposition du contenu squelette html et display */
-/* Identifier les espacements */
-/* TEXTE ALIGN */
-/* Identifier le texte align des textes, btns, liens et texte cta
-et nav links */
-
-
-/* Couleur pour un fond Yin */
 
 
 /* Layout */
 .container {
-	min-width: 320px;
-	max-width: 960px;
-	margin: 0 auto;
+	/*min-width: 320px;*/
+	/*max-width: 960px;*/
+	/*margin: 0 auto;*/
 	padding: 0 5%;
 }
-
-#hero {
-	background: url("girl.jpg") 0 0 no-repeat;
-	background-size: 100% auto;
+nav ul {
+	/*padding: 0;*/
+	/*margin: 0;*/
+}
+nav li {
+	/*display: inline-block;*/
+	/*padding: 1%;*/
+	/*margin: 0 2.5%;*/
 }
 
-article, aside.inside {
+
+/* Section with article and aside.inside */
+/*article, aside.inside {
 	display: inline-block;
 	vertical-align: top;
 }
@@ -201,4 +195,10 @@ article {
 }
 aside.inside {
 	width: 30%;
-}
+}*/
+
+
+
+
+
+
