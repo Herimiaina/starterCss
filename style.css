@@ -16,6 +16,11 @@ html {les couleurs, l'interlignage
 	font-weight: 300;
 	font-size: 17px;
 	line-height: 1.25;
+	padding: 0;
+}
+.yinBg {
+	background: #333;
+	color: #fff;
 }
 span.green {
 	color: #3c3;
@@ -29,32 +34,96 @@ a:link{
 	/*font-style: italic;*/
 }
 a:visited {
+	color: #99f;
+}
+.yinBg a:link {
+	color: #99f;
+}
+.yinBg a:visited {
 	color: #99c;
+}
+.yinBg span.green {
+	color: #6f6;
+}
+.yinBg span.red {
+	color: #f66;
 }
 nav a:link,
 nav a:visited,
 .btn {
-	font-size: 18px;
+	font-size: 19.7px; 
+	color: #666;
+	font-family: sans-serif;
 }
 
+/* Contenu transversale */
+blockquote {
+	/*background: #fdfef0;*/
+	color: #aaa3a0;
+	font-weight: 400;
+	/*font-family: "Calibri";*/
+	font-style: italic;
+}
+.yinBg blockquote {
+	/*background: #3d3e30;*/
+	color: #bbbcbf;
+}
+aside {
+	background: #f8f8f8;
+	color: #aaa;
+	font-family: "Calibri";
+	font-size: 18px;
+}
+aside a:link{
+	color: #aaf;
+	/*font-style: italic;*/
+}
+aside a:visited {
+	color: #ddf;
+}
+aside span.green {
+	color: #7f7;
+}
+aside span.red {
+	color: #f77;
+}
+.yinBg aside {
+	color: #999;
+	background: #383838;
+}
+.yinBg aside a:link {
+	color: #99f;
+}
+.yinBg aside a:visited {
+	color: #ccf;
+}
+.yinBg aside span.green {
+	color: #afa;
+}
+.yinBg aside span.red {
+	color: #faa;
+}
 
 /* Titrage */
 h3 {
-	/*font-size: */
-	/*line-height: */
-	font-weight: normal;
+	font-size: 19.7px; 
+	/*line-height: 24px;*/
 }
-
+.inside h3 {
+	font-size: 20.7px;	
+	/*line-height: 25.4px;*/
+}
 h2 {
-	/*font-size: */
-	/*line-height: */
+	font-size: 25px;
+	/*line-height: 31.25px;*/
 }
 
 h1 {
-	/*font-size: */
-	/*line-height: */
-	text-transform: uppercase;
-	font-weight: normal;
+	font-size: 33px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	/*line-height: 39.2px;*/
+	/*font-weight: normal;*/
 }
 .cta h1 {
 	font-size: 28px;
@@ -64,14 +133,13 @@ h1 {
 }
 
 
-
-
-
 /* Contenu d'Appel */
 .cta {
-	font-family: Arial;
-	line-height: 1.5;
-	color: #cff;
+	/*font-family: Arial;*/
+	/*line-height: 1.5;*/
+	color: #fff;
+	text-align: center;
+	padding: 2.5% 0;
 }
 .cta a:link.btn {
 	font-size: 24px;
@@ -83,28 +151,22 @@ h1 {
 	color: #cff;
 }
 
-
-
-
-
-/* Contenu transversale */
-aside {
-	color: #555;
-	font-family: Trebuchet;
-	background: #ddd;
+nav {
+	text-align: center;
+	background: #f8f8f8;
 }
-aside a:link {
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+nav li {
+	display: inline-block;
+	padding: 1%;
+	margin: 0 2.5%;
+}
 
-}
-aside a:visited {
 
-}
-blockquote {
-	color: #335;
-	font-family: "Courier New";
-	/*font-style: italic;*/
-	background: #ffd;
-}
+
 
 /* LAYOUT */
 /* Identifier la disposition du contenu squelette html et display */
@@ -115,54 +177,28 @@ et nav links */
 
 
 /* Couleur pour un fond Yin */
-.yinBg {
-	color: #fff;
-	background: #333;
-}
-.yinBg span.green {
-	color: #6f6;
-}
-.yinBg span.red {
-	color: #f66;
-}
-
-.yinBg a:link {
-	color: #99f;
-}
-.yinBg a:visited {
-	color: #99c;
-}
-.yinBg aside {
-	color: #ddd;
-	background: #555;
-}
-.yinBg aside a:link {
-	color: #dda;
-}
-.yinBg aside a:visited {
-	color: #aa7;
-}
-.yinBg blockquote {
-	color: #ffd;
-	background: #335;
-}
 
 
 /* Layout */
 .container {
-	/*min-width: 320px;*/
-	/*max-width: 960px;*/
-	/*margin: 0 auto;*/
-	padding: 2% 5%;
+	min-width: 320px;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 5%;
 }
 
-/*#hero {
+#hero {
 	background: url("girl.jpg") 0 0 no-repeat;
 	background-size: 100% auto;
-	padding: 10% 0;
 }
-#split article,
-#split aside {
+
+article, aside.inside {
 	display: inline-block;
-	width: 50%;
-}*/
+	vertical-align: top;
+}
+article {
+	width: 70%;
+}
+aside.inside {
+	width: 30%;
+}
