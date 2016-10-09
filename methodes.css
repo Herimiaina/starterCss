@@ -41,9 +41,31 @@ uppercase, border) des Titrages */
 /* Nav */
 /* Identifier background nav et btns */
 /* Identifier color, liens nav et buttons */
-/* Identifier styles (border, pseudo) liens nav et btns */
+/* Identifier font-size nav et buttons */
+/* Identifier styles (border, pseudo, .active) liens nav et btns */
 
-/* Identifier, dimensionner et mettre en page aside.inside et partenaire */
+/* Footer */
+/* Identifier background footer*/
+/* Identifier color footer text, h4, links.*/
+/* Identifier font-size footer text, links et small*/
+
+/*
+background
+color
+font-family
+font-size
+line-height
+text-decoration
+font-weight
+font-style
+font-variant
+text-transform
+border
+border-radius
+*/
+
+/* Identifier, dimensionner et mettre en page 
+aside.inside et partenaire */
 /* Dimensionner et mettre en page la nav */
 /* Identifier les sections seuls */
 /* Layout */
@@ -55,6 +77,18 @@ uppercase, border) des Titrages */
 /* Identifier les paddings vertical des éléments en RWD */
 /* Identifier l'alignement des textes dans les blocs */
 /* Identifier le texte indent des textes normes */
+
+/*
+width
+height
+margin
+padding
+display
+*/
+
+
+
+
 
 /* 
 body
@@ -109,21 +143,16 @@ line-height: 13,4px
 margin 37,3px 0
 */
 
-
-/*
-background
-color
-font-family
-font-size
-line-height
-text-decoration
-font-weight
-font-style
-font-variant
-text-transform
-border
-border-radius
-*/
-
-
+/* LAYOUT BLOCS */
+ /* Width du container, #header, section, aside,
+ article, asideIn, footer elements */
+/* display des blocs */
+/* margin horizontal des blocs */
+/* padding vertical du container, hero, de la nav 
+header de #header, section, aside, asideIn et footer */
+/* padding horizontal de article et asideIn */
+/* margin vertical des blocs */
+/* Responsive display, width, margin-bottom, right
+sur article et insideIn, footer elements */
+/* Text-align sur #hero, nav, footer elements*/
 
