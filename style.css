@@ -5,7 +5,7 @@ article,aside,footer,header,nav,section,figcaption,figure,main {
   display: block;}
 body, h1, h2, h3, h4, p, ul {margin: 0;}
 ul {padding:0;}
-li {list-style-type: none;}
+/*li {list-style-type: none;}*/
 
 /* Texte */
 html {les couleurs, l'interlignage
