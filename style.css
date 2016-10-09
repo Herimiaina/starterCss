@@ -35,6 +35,7 @@ span.red {
 a:link{
 	color: #66c;
 	text-decoration: none;
+	display: inline-block;
 	/*font-style: italic;*/
 }
 a:visited {
@@ -62,15 +63,39 @@ blockquote {
 	/*font-family: "Calibri";*/
 	font-style: italic;
 }
+figcaption {
+	margin-top: -4px;
+	background: #f0f0f0;
+}
+.yinBg figcaption {
+	background: #303030;
+}
 .yinBg blockquote {
 	background: #3d3e30;
 	color: #bbbcbf;
 }
-aside, button {
+aside {
 	background: #efefef;
 	color: #aaa;
 	font-family: "Calibri";
 	font-size: 18px;
+}
+button {
+	background: #efefef;
+	color: #aaa;
+	font-size: 18px;
+	font-family: "Calibri";
+}
+aside button {
+	background: #ceceff;
+	color: #fff;
+}
+aside.inside button {
+	font-size: 17px;
+}
+.yinBg aside button {
+	background: #295959;
+	color: #999;
 }
 aside a:link{
 	color: #aaf;
@@ -85,7 +110,10 @@ aside span.green {
 aside span.red {
 	color: #f77;
 }
-.yinBg aside,
+.yinBg aside {
+	color: #999;
+	background: #383838;
+}
 .yinBg button {
 	color: #999;
 	background: #383838;
@@ -111,11 +139,11 @@ h4 {
 	text-decoration: underline;
 }
 h3 {
-	font-size: 19.7px; 
+	font-size: 20.7px;	
 	/*line-height: 24px;*/
 }
 .inside h3 {
-	font-size: 20.7px;	
+	font-size: 19.7px; 
 	/*line-height: 25.4px;*/
 }
 h2 {
@@ -141,7 +169,8 @@ h1 {
 /* Contenu d'Appel */
 #hero {
 	background: url("girl.jpg") 0 0 no-repeat;
-	background-size: 100% auto;
+	background-size: 100% 100%;
+	background-attachment: fixed;
 }
 .cta {
 	color: #fff;
@@ -218,116 +247,257 @@ footer a:visited {
 }
 
 
-/* Laytou */ 
+/* Spacing */
+img {
+	display: inline-block;
+	width: 100%;
+	min-height: 100%;
+}
+
+
+li {
+	margin-bottom: 8.5px;
+}
+#header nav li {
+	display: inline-block;
+	margin-bottom: 0;
+	padding: 0 2%;
+	/*RWD margin-bottom: 9.85px;*/ 
+}
+#header nav li a {
+	display: block;
+	/*padding: 0 20%;*/
+}
+#hero li {
+	/*display: inline-block;*/
+	/*width*/
+	/*margin-bottom: 10.35px;*/
+}
+/*aside li {
+	margin-bottom:;
+}*/
+aside.inside li {
+	margin-bottom: 8px;
+}
+footer li {
+	margin-bottom: 7.5px;
+}
+
+p, blockquote, figure, ul {
+	margin-bottom: 17px;
+}
+#header nav ul {
+	margin-bottom: 0;
+	/* RWD margin-bottom: 19.7px; */
+}
+#hero p, 
+#hero blockquote, 
+#hero figure,
+#hero ul {
+	margin-bottom: 20.7px;
+}
+blockquote {
+	padding: 20px;
+}
+figcaption {
+	padding: 7px 0;
+	text-align: center;
+}
+/*.gallerie figure {
+	margin-bottom: 0;
+	display: inline-block;
+	width:;
+}*/
+/*aside p, aside figure, aside ul {
+	margin-bottom:;
+}*/
+aside.inside p,
+aside.inside figure,
+aside.inside ul {
+	margin-bottom: 16px;
+}
+aside figcaption {
+	padding: 6.5px 0;
+}
+footer p,  
+footer figure,
+footer ul {
+	margin-bottom: 15px;
+}
+.btn {
+	margin-bottom: 26px;
+	padding: 13px 26px;
+}
+button {
+	margin-bottom: 18px;
+	padding: 9px 18px;
+}
+aside.inside button {
+	margin-bottom: 17px;
+	padding: 8.5px 17px;
+}
+#hero h1 {
+	margin-bottom: 32px;
+	/*padding:;*/
+}
+h1 {
+	margin-bottom: 33px;
+	text-align: center;
+	/*padding:;*/
+}
+h2 {
+	margin-bottom: 25px;
+	/*padding:;*/
+}
+h3 {
+	margin-bottom: 20.7px;
+	/*padding:;*/
+}
+.inside h3 {
+	margin-bottom: 19.7px;
+	/*padding:; */
+}
+h4 {
+	margin-bottom: 17px;
+	/*padding:;*/
+}
+
 .container {
 	min-width: 320px;
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0 5%;
 }
-#hero {
-	padding: 5% 2%;
-	/*margin:;*/
-}
-header nav {
-	padding: 0.5% 0;
-	/*margin:;*/
-}
 #header {
-	/*padding:;*/
 	margin-bottom: 4%;
 	text-align: center;
+	/*padding:;*/
 }
-section, aside {
+#hero {
 	padding: 5% 0;
 	/*margin:;*/
 }
+#header nav {
+	padding: 1% 0;
+	/*margin:;*/
+}
+section, aside {
+	padding: 3% 0;
+	/*margin:;*/
+}
 aside.inside {
+	padding: 4% 5%;
 	width: 45%;
-	padding: 2% 2.5%;
 }
 article {
+	margin-bottom: 4%;
 	width: 55%;
 	padding-right: 3%;
-	/*margin-right: 5%;*/
 }
-article,
-aside.inside {
+article, aside.inside {
 	display: inline-block;
 	vertical-align: top;
 }
+
 footer {
 	padding: 4% 0 1% 0;
 	/*margin:;*/
 }
-#epilogue, #footerLinks {
+#epilogue, #socialLinks, footer nav {
 	display: inline-block;
 	vertical-align: top;
-	margin-bottom: 3%;
+	margin-bottom: 2%;
 }
 #footerLinks {
-	width: 40%;
-}
-#epilogue {
-	/*min-width: 478px;*/
-	width: 60%;
-	padding-right: 3%;
+	width: 35%;
 }
 #footerLinks ul {
-	/*display: inline-block;*/
-	/*padding-right: 15%;*/
+	display: inline-block;
+	width: 50%;
+}
+#footerLinks ul:first-of-type {
+	text-align: center;
+}
+#footerLinks h4,
+#footerLinks ul:last-of-type {
+	text-align: right;
+}
+#socialLinks {
+	width: 15%;
+}
+#socialLinks li, #socialLinks h4 {
+	text-align: center;
+}
+#epilogue {
+	width: 50%;
+	overflow: hidden;
+	/*padding-right: 3%;*/
 }
 small {
 	display: block;
 	text-align: center;
 }
 
-/* Eléments de 2nd degré */
-li {
-	margin-bottom: 1%;
-}
-#header nav li, ul li:last-child, footer li {
+li:last-child,
+ul:last-child,
+p:last-child,
+blockquote:last-child
+figure:last-child
+.btn:last-child,
+button:last-child,
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+article:last-child,
+ {
 	margin-bottom: 0;
 }
 
-#header nav li {
-	display: inline-block;
-	padding: 0 2%;
-}
-#header nav li a {
-	display: block;
-	/*padding: 0 20%;*/
-}
-
-@media all and (max-width: 538px) {
-	#header nav li {
-		width: 33%;
-		padding: 0;
-		border: 1px solid #ccc;
+@media all and (max-width: 788px) {
+	#epilogue {
+		display: block;
+		width: 100%;
 	}
-	#header nav li a {
-		padding: 3% 0;
-		color: #444;
+	#socialLinks {
+		width: 31%;
 	}
+	#footerLinks {
+		width: 69%;
+	}
+	#footerLinks ul {
+		display: block;
+		width: 100%;
+	}
+	#footerLinks ul:first-of-type {
+	text-align: right;
 }
+	#footerLinks ul li {
+		display: inline-block;
+	}
 
+}
 
 @media all and (max-width: 660px) {
-	article, aside.inside, #epilogue, #footerLinks {
+	article, aside.inside {
 		display: block;
 		width: 100%;
 	}
 	article {
 		padding-right: 0;
-		margin-bottom: 4%;
 	}
-	#epilogue {
-		text-align: center;
-		padding-right: 0;
-		margin-bottom: 3%;
-	}
-	#footerLinks {
-		text-align: center;
-	}
-
 }
+
+@media all and (max-width: 538px) {
+	#header nav li {
+		margin-bottom: 9.85px;
+		display: block;
+	}
+}
+
+
+
+
+
+
+

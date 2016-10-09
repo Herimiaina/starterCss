@@ -64,18 +64,6 @@ border
 border-radius
 */
 
-/* Identifier, dimensionner et mettre en page 
-aside.inside et partenaire */
-/* Dimensionner et mettre en page la nav */
-/* Identifier les sections seuls */
-/* Layout */
-/* Identifier le margin vertical des éléments en RWD*/
-/* Identifier les affichages de positionnement en RWD*/
-/* Identifier les dimensions horizontales des éléments */
-/* Identifier les margin horizontal des éléments en RWD*/
-/* Identifier les paddings horizontal des éléments en RWD*/
-/* Identifier les paddings vertical des éléments en RWD */
-/* Identifier l'alignement des textes dans les blocs */
 /* Identifier le texte indent des textes normes */
 
 /*
@@ -156,3 +144,5 @@ header de #header, section, aside, asideIn et footer */
 sur article et insideIn, footer elements */
 /* Text-align sur #hero, nav, footer elements*/
 
+/* Eléments de 2ème degré */
+/* nav li */
