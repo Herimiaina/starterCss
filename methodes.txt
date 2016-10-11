@@ -22,13 +22,17 @@ RWD logo + nav
 img gallery
 float images
 Forms
-
 overflow
 text-indent
 pseudo-elements
+background mutliple & opacity
+box-shadow
+text-shadow
+CSS3 ANIMATION
+fav-icon
+
 <cite> attr cite
 <q>
-background mutliple & opacity
 attr title
 <dl><dt><dd>
 <audio>
@@ -38,11 +42,8 @@ details/summary
 address
 tables
 
-box-shadow
-text-shadow
 
-font-family
-fav-icon
+@font-face
 
 
 body
