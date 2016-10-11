@@ -1,6 +1,32 @@
+fav-icon
+article col1-3
+RWD logo + nav
+img gallery
+float images
+overflow
+text-indent
+pseudo-elements
+background mutliple & opacity
+box-shadow
+text-shadow
+
+Forms
+CSS3 ANIMATION
+
+<cite> attr cite
+<q>
+attr title
+<dl><dt><dd>
+<audio>
+<video>
+<iframe>
+details/summary
+address
+tables
+
 1/Background
 2/Color
-3/Font-family
+3/Font-family @font-face
 4/Font-size
 5/Font-Weight
 6/Margin-bottom
@@ -17,33 +43,9 @@ Inline > Bloc > Container
 3 Layout merged with aside
 9 RWD
 
-article col1-3
-RWD logo + nav
-img gallery
-float images
-Forms
-overflow
-text-indent
-pseudo-elements
-background mutliple & opacity
-box-shadow
-text-shadow
-CSS3 ANIMATION
-fav-icon
-
-<cite> attr cite
-<q>
-attr title
-<dl><dt><dd>
-<audio>
-<video>
-<iframe>
-details/summary
-address
-tables
 
 
-@font-face
+
 
 
 body
