@@ -18,7 +18,7 @@ img {
 	width: 100%;
 }	
 a {
-	display: inline-block;
+	display: block;
 }	
 small {
 	display: block;
