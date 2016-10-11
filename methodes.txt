@@ -1,84 +1,50 @@
- TEXTE NORMAL
- Identifier le background normal 
- Identifier les couleurs du texte normal, liens green/red, liens
- Identifier la font du texte normal 
- Identifier la font-size du texte normal, liens, nav bar, 
-bouttons 
-  Identifier la font-weight des textes normal 
- Identifier l'interlignage du texte normal 
- Identifier le style des liens 
+1/Background
+2/Color
+3/Font-family
+4/Font-size
+5/Font-Weight
+6/Margin-bottom
 
- Soupire Layout 
- Identifier le padding horizontal des contenants des sections 
+Inline > Bloc > Container
 
- ASIDE & BLOCKQUOTE
- Identifier le background des aside et blockquote 
- Identifier les couleurs des contenus transversales aside
- et blockquote et liens asides
-  Identifier la font des asides 
- Identifier la font-size et interlignage des contenus transversales
- Identifier le style (italic ou new font ou border) de blockquote 
- Identifier le style (border) des blocs 
- positionnement des insides internes 
+1 normal
+2 Yin normal
+4 Aside - Layout
+5 Yin aside
+6 Footer - Layout
+7 CTA - Layout
+8 Header - Layout
+3 Layout merged with aside
+9 RWD
 
- YIN 
- Identifier les backgrounds Yin, aside yin et blockquote yin 
- Identifier les couleurs des textes Yin, des liens yins, aside
-yin, liens aside yins, blockquote yin 
+article col1-3
+RWD logo + nav
+img gallery
+float images
+Forms
 
- TITRAGE 
- Identifier la font-size, interlignage et styles (weight, caps, 
-uppercase, border) des Titrages 
+overflow
+text-indent
+pseudo-elements
+<cite> attr cite
+<q>
+background mutliple & opacity
+attr title
+<dl><dt><dd>
+<audio>
+<video>
+<iframe>
+details/summary
+address
+tables
 
- CTA 
- Identifier le bg image hero 
- Identifier les couleurs du texte et des liens cta 
- Identifier la font cta 
- Identifier la font-size liens cta, texte cta
- Identifier l'interlignage cta 
- Identifier les styles (border, radius) des liens cta 
+box-shadow
+text-shadow
 
- Nav 
- Identifier background nav et btns 
- Identifier color, liens nav et buttons 
- Identifier font-size nav et buttons 
- Identifier styles (border, pseudo, .active) liens nav et btns 
-
- Footer 
- Identifier background footer
- Identifier color footer text, h4, links.
- Identifier font-size footer text, links et small
-
-
-background
-color
 font-family
-font-size
-line-height
-text-decoration
-font-weight
-font-style
-font-variant
-text-transform
-border
-border-radius
+fav-icon
 
 
- Identifier le texte indent des textes normes 
-
-
-width
-height
-margin
-padding
-display
-
-
-
-
-
-
- 
 body
 margin 8px 0
 
@@ -129,22 +95,3 @@ h6 bold
 font-size: 10,7px
 line-height: 13,4px
 margin 37,3px 0
-
-
- LAYOUT BLOCS 
-  Width du container, #header, section, aside,
- article, asideIn, footer elements 
- display des blocs 
- margin horizontal des blocs 
- padding vertical du container, hero, de la nav 
-header de #header, section, aside, asideIn et footer 
- padding horizontal de article et asideIn 
- margin vertical des blocs 
- Responsive display, width, margin-bottom, right
-sur article et insideIn, footer elements 
- Text-align sur #hero, nav, footer elements
-
- Eléments de 2ème degré 
- nav li 
-
-background mutliple
