@@ -1,28 +1,6 @@
-fav-icon
-article col1-3
-RWD logo + nav
-img gallery
-float images
-overflow
-text-indent
-pseudo-elements
-background mutliple & opacity
-box-shadow
-text-shadow
-
-Forms
-CSS3 ANIMATION
-
-<cite> attr cite
-<q>
-attr title
-<dl><dt><dd>
-<audio>
-<video>
-<iframe>
-details/summary
-address
-tables
+html
+<meta name="viewport" content="width=device-width">
+<link rel="icon" type="image/png" src="path.png">
 
 1/Background
 2/Color
@@ -42,11 +20,6 @@ Inline > Bloc > Container
 8 Header - Layout
 3 Layout merged with aside
 9 RWD
-
-
-
-
-
 
 body
 margin 8px 0
