@@ -2,8 +2,8 @@
 
 Pour visualiser :
 
-prepend  http://htmlpreview.github.com à l'adresse du html
+prepend   http://htmlpreview.github.com/? à l'adresse du html
 
 Soit 
 
- http://htmlpreview.github.comhttps://github.com/Herimiaina/starterCss/blob/Version2/index.html
+  http://htmlpreview.github.com/?https://github.com/Herimiaina/starterCss/blob/Version2/index.html
