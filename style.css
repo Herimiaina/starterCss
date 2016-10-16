@@ -3,7 +3,7 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 article,aside,footer,header,nav,section,figcaption,figure,main{display:block;}
-body,h1,h2,h3,h4,p,ul,blockquote{margin:0;}
+body,h1,h2,h3,h4,p,ul,blockquote, figure {margin:0;}
 ul {padding:0;}
 
 
@@ -31,15 +31,22 @@ small {
 figcaption {
 	margin-top: -4px;
 	text-align: center;
-}				   
+}	
+.cf:after {
+	content:"";
+	display:block;
+	height:0;
+	overflow: hidden;
+	clear:both;
+}			   
 
 
 /* Normal Yang Elements */
 body {
 	color: #666;
 	font-family: "Segoe UI";
-	font-weight: 300;
 	font-size: 17px;
+	font-weight: 300;
 	line-height: 1.25;
 }
 /*span.green { color: #3c3; }*/
@@ -62,6 +69,7 @@ figcaption {
 p, blockquote, figure, ul {
 	margin-bottom: 17px;
 }
+
 blockquote {
 	background: #fdfef0;
 	color: #aaa3a0;
@@ -142,7 +150,7 @@ h1 {
 	margin: 0 auto;
 	padding: 0 5%;
 }
-section, aside {
+main h1, section, aside {
 	/*background: #fff;*/
 	padding: 3% 0;
 	/*margin:;*/
@@ -159,18 +167,15 @@ article.col_1-3 {
 	text-align: center;
 	margin-right: 2%;
 }
-article.col_1-3:last-child{
+article.col_1-3:nth-child(3n){
 	margin-right: 0;
 }
-article.aside, aside.inside, article.col_1-3 {
+article.aside, aside.inside {
 	display: inline-block;
 	vertical-align: top;
 }
- .item {
-	display: inline-block;
-	width: 25%;
-	height: 150px;
-	/*margin-bottom: 0;*/
+article.col_1-3 {
+	float: left;
 }
 
 
@@ -246,12 +251,32 @@ aside.inside h3 {
 }
 
 
-#gallerie2 img {
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: transparent;
+.indent {
+	text-indent: 50px;
 }
+.item {
+	/*display: inline-block;*/
+	float: left;
+	width: 25%;
+	height: 150px;
+	overflow: hidden;
+	/*margin-bottom: 0;*/
+}
+figure.floatLeft {
+	float: left;
+	margin-top: 17px;
+	margin-right: 17px;
+}
+figure.floatRight {
+	float: right;
+	margin-top: 17px;
+	margin-left: 17px;	
+}
+figure.floated {
+	max-width: 33%;
+}
+
+
 /* Footer Elements */
 footer {
 	background: #282828;
@@ -261,6 +286,7 @@ footer {
 }
 footer li {
 	margin-bottom: 7.5px;
+	list-style-type: none;
 }
 footer p,  
 footer figure,
@@ -342,12 +368,21 @@ footer a:visited {
 }
 .cta a:link.btn,
 .cta a:visited.btn {
-	font-size: 26px;
 	color: #fff;
-	border: 2px solid #fff;
-	border-radius: 5px;
+	font-size: 26px;
 	margin-bottom: 26px;
 	padding: 13px 26px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	box-shadow: 1px 5px 5px rgba(255,255,255,0.4);	
+}
+.cta a.btn:hover {
+	background: rgba(0,200,200,0.9);
+	border-color: transparent;
+	font-weight:400;
+	text-shadow: 1px 1px 10px #000;
+	/*color: #000;*/
+	box-shadow: 1px 1px 50px #0ff;	
 }
 /*.cta h2 {
 
@@ -356,9 +391,13 @@ footer a:visited {
 
 /* Header elements */
 #hero {
-	background: url("girl.jpg") 0 0 no-repeat;
-	background-size: 100% 100%;
-	background-attachment: fixed;
+	background: radial-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)) 0 0 no-repeat, 
+	url("girl2.jpg") 0 0 no-repeat, 
+	url("girl.jpg") 50% 0 no-repeat, 
+	url("girl3.jpg") 100% 0 no-repeat;
+	background-size: 100% auto, 33% 100%, 33% 100%, 33% 100%;
+	/*background-attachment: fixed;*/
+	background-color: #222;
 	padding: 5% 0;
 	text-align: center;
 	/*margin:;*/
@@ -369,7 +408,9 @@ footer a:visited {
 	/*font-variant: small-caps;*/
 	font-weight: 400;
 	text-transform: uppercase;
+	margin-top: 0;
 	margin-bottom: 32px;
+	text-shadow: 10px 5px 10px #fff;
 	/*padding:;*/
 }
 #header nav a:link,
@@ -389,17 +430,21 @@ footer a:visited {
 	/*margin:;*/
 }
 #header nav ul, #logo {
-	display: inline-block;
-	vertical-align: middle;
-	text-align: center;
+	/*display: inline-block;*/
+	/*vertical-align: middle;*/
+	/*text-align: center;*/
 }
 #logo {
+	/*text-align: left;*/
+	float: left;
 	min-width: 165px;
-	width: 28%;
+	/*width: 28%;*/
 }
 #header nav ul {
-	/*min-width: 445px;*/
-	width: 72%;
+	text-align: right;
+	float: right;
+	min-width: 445px;
+	/*width: 72%;*/
 	margin-bottom: 0;
 	/* RWD margin-bottom: 19.7px; */
 }
@@ -413,10 +458,14 @@ footer a:visited {
 	display: block;
 	/*padding: 0 10%;*/
 }
+#header nav li:hover a {
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+}
 #header {
-	margin-bottom: 4%;
+	/*margin-bottom: 4%;*/
 	/*text-align: center;*/
 	/*padding:;*/
+	box-shadow: 0 5px 10px #777;
 }
 
 
@@ -451,9 +500,12 @@ footer a:visited {
 
 @media all and (max-width: 660px) {
 	#logo, #header nav ul {
-		display: block;
-		width: 100%;
+		/*display: block;*/
+		/*width: 100%;*/
+		text-align: center;
 		margin-bottom: 2%;
+		float: none;
+		min-width: initial;
 	}
 	
 
@@ -481,10 +533,11 @@ footer a:visited {
 		display: block;
 	}
 	#gallerie .item {
-		display: block;
-		width: 75%;
+		/*display: block;*/
+		float: none;
+		width: 90%;
 		margin: 0 auto;
 		margin-bottom: 10%;
-		height: 300px;
+		height: initial;
 	}
 }

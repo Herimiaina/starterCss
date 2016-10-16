@@ -2,14 +2,24 @@ html
 <meta name="viewport" content="width=device-width">
 <link rel="icon" type="image/png" src="path.png">
 
+0/Rest/Normalize stuff
+1/ Opinionated
+*, last-child (article/hx/.btn/button/blockquote/figure/p/ul/li), li-position, img, a-display, small, figcaption, .cf:after
+
 1/Background
 2/Color
 3/Font-family @font-face
 4/Font-size
 5/Font-Weight
 6/Margin-bottom
-
-Inline > Bloc > Container
+7/Container
+8/Dimension & Style figcaption, bq, button, .btn, hx, li
+9/Padding-Vert
+10/Padding-Hori
+11/Layout Bloc
+12/Elements Layouts
+13/Pseudo-element
+14/RWD
 
 1 normal
 2 Yin normal
@@ -20,6 +30,9 @@ Inline > Bloc > Container
 8 Header - Layout
 3 Layout merged with aside
 9 RWD
+
+Inline > Bloc > Container
+
 
 body
 margin 8px 0
